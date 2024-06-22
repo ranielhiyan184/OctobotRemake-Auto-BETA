@@ -36,7 +36,7 @@ module.exports = {
             }
         }
 
-        const randomCoins = Math.floor(Math.random() * (500 - 150 + 1)) + 150;
+        const randomCoins = Math.floor(Math.random() * (5000 - 1500 + 1)) + 1500;
 
         let coinBalance = 0;
         if (fs.existsSync(coinBalanceFile)) {

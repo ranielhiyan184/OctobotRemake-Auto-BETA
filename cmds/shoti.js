@@ -6,7 +6,7 @@ module.exports = {
   description: "Sends a shawty toktik videos",
   name: "shoti lang to bawal malibogan",
   role: "user",
-  coins: "4000",
+  coins: "1",
   cooldown: 28,
   execute: async function (api, event, args, commands) {
     try {

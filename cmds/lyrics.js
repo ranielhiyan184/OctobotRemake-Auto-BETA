@@ -4,7 +4,7 @@ module.exports = {
     description: "Lyrics Finder",
     role: "user", // user, botadmin, or admin
     cooldown: 5,
-    coins: 5,
+    coins:1,
     credits: "Grey, Converted by CJ Villavito",
     execute(api, event, args, commands) {
         const song = args.join(' ');
